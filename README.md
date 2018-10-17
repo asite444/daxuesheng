@@ -328,19 +328,19 @@ Markdown은 텍스트 기반의 마크업언어로 2004년 존그루버에 의�
 2.1. 헤더Headers
 
 •큰제목: 문서 제목
-This is an H1
-=============
+●This is an H1
+●=============
 •작은제목: 문서 부제목
-This is an H2
--------------
+●This is an H2
+●-------------
 •글머리: 1~6까지만 지원
 
-# This is a H1
-## This is a H2
-### This is a H3
-#### This is a H4
-##### This is a H5
-###### This is a H6
+●# This is a H1
+●## This is a H2
+●### This is a H3
+●#### This is a H4
+●##### This is a H5
+●###### This is a H6
 
 
 
@@ -348,19 +348,21 @@ This is an H2
 2.2. BlockQuote
 
 이메일에서 사용하는 > 블럭인용문자를 이용한다.
-> This is a blockqute.
+●> This is a blockqute.
 이 안에서는 다른 마크다운 요소를 포함할 수 있다.
 2.3. 목록
 
 ● 순서있는 목록(번호)
 순서있는 목록은 숫자와 점을 사용한다.
-1. 첫번째
-2. 두번째
-3. 세번째
-현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다.
-1. 첫번째
-3. 세번째
-2. 두번째
+●1. 첫번째
+●2. 두번째
+●3. 세번째
+
+●현재까지는 어떤 번호를 입력해도 순서는 내림차순으로 정의된다.
+●1. 첫번째
+●3. 세번째
+●2. 두번째
+
 ● 순서없는 목록(글머리 기호)
 * 빨강
   * 녹색
@@ -382,42 +384,42 @@ This is an H2
 2.4. 수평선<hr/>
 
 아래 줄은 모두 수평선을 만든다. 마크다운 문서를 미리보기로 출력할 때 페이지 나누기 용도로 많이 사용한다.
-* * *
+●* * *
 
-***
+●***
 
-*****
+●*****
 
-- - -
+●- - -
 
----------------------------------------
+●---------------------------------------
 2.5. 링크
 •참조링크
-[link keyword][id]
-[id]: URL "Optional Title here"
+●[link keyword][id]
+●[id]: URL "Optional Title here"
 
-Link: [Google][googlelink]
-[googlelink]: https://google.com "Go google"
+●Link: [Google][googlelink]
+●[googlelink]: https://google.com "Go google"
 
 
 •인라인 링크
-syntax: [Title](link)
+●syntax: [Title](link)
 
 
 •자동연결
-<http://example.com/>
-<address@example.com>
+●<http://example.com/>
+●<address@example.com>
 
 2.6. 강조
-*single asterisks*
-_single underscores_
-**double asterisks**
-__double underscores__
-++underline++
-~~cancelline~~
+●*single asterisks*
+●_single underscores_
+●**double asterisks**
+●__double underscores__
+●++underline++
+●~~cancelline~~
 
 2.7. 이미지
-![Alt text](/path/to/img.jpg)
-![Alt text](/path/to/img.jpg "Optional title")
+●![Alt text](/path/to/img.jpg)
+●![Alt text](/path/to/img.jpg "Optional title")
 사이즈 조절 기능은 없기 때문에 <img width="" height=""></img>를 이용한다.
 
